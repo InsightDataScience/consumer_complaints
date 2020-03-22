@@ -1,0 +1,98 @@
+bank account or service,2012,12212,99,1
+bank account or service,2013,13388,165,1
+bank account or service,2014,14662,259,2
+bank account or service,2015,17140,216,1
+bank account or service,2016,21848,231,1
+bank account or service,2017,6956,175,3
+checking or savings account,2017,12763,184,1
+checking or savings account,2018,21211,215,1
+checking or savings account,2019,21740,253,1
+checking or savings account,2020,4151,160,4
+consumer loan,2012,1986,85,4
+consumer loan,2013,3117,160,5
+consumer loan,2014,5457,359,7
+consumer loan,2015,7886,600,8
+consumer loan,2016,9601,666,7
+consumer loan,2017,3557,426,12
+credit card,2011,1260,34,3
+credit card,2012,15353,77,1
+credit card,2013,13105,109,1
+credit card,2014,13974,179,1
+credit card,2015,17300,226,1
+credit card,2016,21065,222,1
+credit card,2017,7133,128,2
+credit card or prepaid card,2017,15404,171,1
+credit card or prepaid card,2018,24249,253,1
+credit card or prepaid card,2019,25835,246,1
+credit card or prepaid card,2020,5499,128,2
+credit reporting,2012,1873,32,2
+credit reporting,2013,14380,204,1
+credit reporting,2014,29239,215,1
+credit reporting,2015,34272,238,1
+credit reporting,2016,44081,183,0
+credit reporting,2017,16587,404,2
+"credit reporting, credit repair services, or other personal consumer reports",2017,73394,1021,1
+"credit reporting, credit repair services, or other personal consumer reports",2018,111627,1308,1
+"credit reporting, credit repair services, or other personal consumer reports",2019,138595,1335,1
+"credit reporting, credit repair services, or other personal consumer reports",2020,35187,638,2
+debt collection,2013,11069,985,9
+debt collection,2014,39139,1757,4
+debt collection,2015,39724,2136,5
+debt collection,2016,40467,2136,5
+debt collection,2017,47954,2241,5
+debt collection,2018,51185,2251,4
+debt collection,2019,46403,2122,5
+debt collection,2020,9287,1190,13
+"money transfer, virtual currency, or money service",2017,3266,179,5
+"money transfer, virtual currency, or money service",2018,5433,236,4
+"money transfer, virtual currency, or money service",2019,5087,266,5
+"money transfer, virtual currency, or money service",2020,943,120,13
+money transfers,2013,559,58,10
+money transfers,2014,1169,68,6
+money transfers,2015,1619,80,5
+money transfers,2016,1567,81,5
+money transfers,2017,440,47,11
+mortgage,2011,1276,67,5
+mortgage,2012,38109,383,1
+mortgage,2013,49400,455,1
+mortgage,2014,42961,496,1
+mortgage,2015,42345,680,2
+mortgage,2016,41466,767,2
+mortgage,2017,30577,773,3
+mortgage,2018,24576,703,3
+mortgage,2019,22708,673,3
+mortgage,2020,4279,328,8
+other financial service,2014,116,39,34
+other financial service,2015,312,100,32
+other financial service,2016,465,155,33
+other financial service,2017,166,77,46
+payday loan,2013,194,32,16
+payday loan,2014,1706,160,9
+payday loan,2015,1585,244,15
+payday loan,2016,1565,214,14
+payday loan,2017,493,107,22
+"payday loan, title loan, or personal loan",2017,2958,393,13
+"payday loan, title loan, or personal loan",2018,4368,471,11
+"payday loan, title loan, or personal loan",2019,4323,484,11
+"payday loan, title loan, or personal loan",2020,779,233,30
+prepaid card,2014,336,30,9
+prepaid card,2015,1784,49,3
+prepaid card,2016,1250,52,4
+prepaid card,2017,449,31,7
+student loan,2012,2840,54,2
+student loan,2013,3005,92,3
+student loan,2014,4283,138,3
+student loan,2015,4501,172,4
+student loan,2016,8087,232,3
+student loan,2017,17173,232,1
+student loan,2018,8776,201,2
+student loan,2019,7212,193,3
+student loan,2020,1179,101,9
+vehicle loan or lease,2017,3694,250,7
+vehicle loan or lease,2018,5892,316,5
+vehicle loan or lease,2019,5489,325,6
+vehicle loan or lease,2020,1073,151,14
+virtual currency,2014,1,1,100
+virtual currency,2015,7,2,29
+virtual currency,2016,7,3,43
+virtual currency,2017,3,2,67
