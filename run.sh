@@ -4,3 +4,4 @@
 #python3.7 ./src/consumer_complaints.py ./input/complaints.csv ./output/report.csv
 python3.7 ./src/consumer_complaints.py ./insight_testsuite/tests/test_1/input/complaints.csv ./insight_testsuite/tests/test_1/output/report.csv
 #python3.7 ./src/consumer_complaints.py ./insight_testsuite/tests/test_dataset/input/complaints.csv ./insight_testsuite/tests/test_dataset/output/report.csv
+python3.7 ./src/consumer_complaints.py ./insight_testsuite/tests/test_1/input/complaints.csv ./output/report.csv
