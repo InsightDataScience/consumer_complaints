@@ -9,19 +9,25 @@ For this challenge, we want to know for each financial product and year, the tot
 
 import csv
 import sys
+import os
 
+# Getting the inputs from the command line shell script
 input_filename, output_filename = sys.argv[1:]
 
+# File open and using csv reader with comma seperated delimiter to extract the data from the input file
 input_open = open(input_filename, 'r')
-
 data = csv.reader(input_open, delimiter=',')
 
-error_file = open('error_logfile.txt', 'a')
+# Creating an error file to log the details of the errors
+error_file = open(os.path.dirname(sys.argv[2])+'/error_logfile.txt', 'a')
 
+# Getting the length of the row (number of columns) from the header line
 length_header = len(next(data))
 
+# Initializing a dictionary to store the required values and generate output
 data_dict = {}
 
+# Reading each line from the input file and processing. Used try and except method to not break the code when an error occurs and track the issues
 for eachline in data:
     try:
         product_year_key = (eachline[1].lower(), eachline[0][:4])
@@ -31,13 +37,13 @@ for eachline in data:
             data_dict[product_year_key]['Complaint_ID'].append(eachline[17])
             data_dict[product_year_key]['Company'].append(eachline[7].lower())
     except IndexError as err:
-        #print(','.join(eachline) + '\nERROR:%s!  The above row should have %s columns to be processed.' % (str(err), str(length_header)))
+        print(','.join(eachline) + '\nERROR:%s!  The above row should have %s columns to be processed.' % (str(err), str(length_header)))
         error_file.write(','.join(eachline) + '\nERROR:%s!  The above row should have %s columns to be processed.' % (str(err), str(length_header)))
     except BaseException as err:
-        #print(','.join(eachline) + err)
+        print(','.join(eachline) + err)
         error_file.write(','.join(eachline) + '\n'+str(err))
 
-# Write the output
+# Writing to the output file
 
 with open(output_filename, 'wb') as out_file:
 
